@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erişim Otomasyon ve Yazılım | Kariyer</title>
+    <link rel="stylesheet" href="./css/careers.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="icon" href="./images/erisimlogo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><img src="./images/homeerisim.png" alt="homeerisim"></a>
+        <div class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">Ana Sayfa</a></li>
+                <li><a href="index.html#about">Hakkında</a></li>
+                <li><a href="index.html#service">Çözümler</a></li>
+                <li><a href="index.html#portfolio">Portfolyo</a></li>
+                <li><a href="index.html#team">Takım</a></li>
+                <li><a href="careers.html">Kariyer</a></li>
+                <li><a href="index.html#contact">İletişim</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="home">
+        <h2>Ana Sayfa / Kariyer</h2>
+    </section>
+
+    <section id="career-heading" class="career-heading">
+        <h1 class="heading">Kariyer</h1>
+        <p>Erişimde Seni Görmek İstiyoruz. </p>  <hr>  <h3>Başvuru Formu</h3>
+    </section>
+    <div class="career">
+        <div class="career-form">
+            <form action="./careers.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="name" placeholder="İsim" class="career-form-txt" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="İletişim Numarası" maxlength="10" class="career-form-phone">
+                <input type="email" name="email" placeholder="E-mail" class="career-form-email" required>
+                <div class="radio-class">
+                    <h2 class="name">Hangi Pozisyona Başvuruyorsun?</h2>
+                <label class="radio">
+                  <input class="radio-one" type="radio" checked="checked" name="status" value=".NET">
+                  <span class="checkmark"></span>
+                  .Net Developer
+                </label>
+                <label class="radio">
+                  <input class="radio-two" type="radio" name="status" value="Web Developer">
+                  <span class="checkmark"></span>
+                  Web Developer
+                </label>
+                <label class="radio">
+                    <input class="radio-four" type="radio" name="status" value="Mobile App Developer">
+                    <span class="checkmark"></span>
+                    Mobile App Developer
+                  </label>
+                </div>
+                <input type="number" id="experience" name="experience" required placeholder="Yıllık Tecrübe" class="career-form-experience">
+                <textarea placeholder="Diğer Detayları " name="details" class="career-form-txtarea" required></textarea>
+                <div class="file">
+                    <h2 class="name">Cv yükle</h2>
+                    <input class="upload" type="file" name="fileToUpload" accept=".doc,.docx,.pdf"><br><br><br>
+                </div>
+                <input type="submit" value="Gönder" name="submit" class="career-form-btn">
+            </form>
+        </div>
+    </div>
+
+      <div class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Hakkımızda</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#home">Ana Sayfa</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#about">Hakkımızda</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#service">Çözümler</a></li>
+                           
+                        </ul>
+                    </div>
+  
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <h4>Kısayollar</h4>
+                        <ul>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#portfolio">Portfolyo</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#team">Takım</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="careers.html">Kariyer</a></li>
+                            <li><i class="ion-ios-arrow-forward"></i> <a href="index.html#contact">İletişim</a></li>
+                            
+                        </ul>
+                    </div>
+  
+                    <div class="col-lg-3 col-md-6 footer-contact" style="font-size: 1.5rem;">
+                        <h4>İletişime Geç</h4>
+                      <p>
+                        Yamaçtepe Mah, Gaziantep Üniversitesi Teknopark, Mahmut Tevfik Atay Blv No 4 C Blok Kat 2 No 204, 27410<br>
+                          Şahinbey/Gaziantep <br>
+                          <strong>Telefon:</strong> <a style="color: white;"  href="tel:03423221935">0(342) 322 19 35</a> <br>
+                          <strong>Email:</strong><a style="color: white;" href="mailto:info@erisimotomasyon.com">info@erisimotomasyon.com</a> <br>
+                      </p>
+                      <div class="social-links">
+                        
+                        <a href="https://www.linkedin.com/company/eri%CC%87%C5%9Fi%CC%87m-otomasyon/" target="_blank"><i class="ion-logo-linkedin"></i></a>
+                        <a href="https://www.instagram.com/erisimotomasyon/?next=%2F" target="_blank"><i class="ion-logo-instagram"></i></a>
+                         
+                      </div>
+   -->
+                    </div>
+                    <a href="index.html#home"> <img style="height: 195px;" src="./images/erisimlogo.png" alt="Erisim"> </a>
+                    
+                </div>
+            </div>
+        </div>
+  
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 copyright" style="color: #fff; font-size: 1.3rem;">
+                    Copyright  &copy; 2023 Erişim Otomasyon ve Yazılım . Tüm Hakları Saklıdır.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
+
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+</body>
+</html>

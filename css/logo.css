@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+.logo_home{
+    min-height: 70vh;
+    width: 100vw;
+    background-image: url(../images/logohome.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 0 1rem;
+    position: relative;
+    overflow: hidden !important;
+}
+
+.logo_home h2{
+    color: #fff;
+    font-size: 5.5rem;
+}
+
+
+.logo_home{
+    min-height: 60vh;
+}
+
+.logo_home h2{
+    color: #fff;
+    font-size: 4rem;
+}
+
+.logo-heading{
+    text-align: center;
+}
+
+.logo-heading p{
+    font-size: 2rem;
+    color: #333;
+}
